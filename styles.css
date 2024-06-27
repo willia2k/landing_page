@@ -1,0 +1,210 @@
+body {
+  background-image: url(https://i.pinimg.com/564x/f1/f3/b5/f1f3b5d335bb396e7949a9ea450a1c6e.jpg);
+  color: rgb(90, 61, 23);
+}
+
+.navbar {
+  font-family: 'Abril Fatface', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-bar {
+  color: rgb(17, 87, 148);
+  background-image: url(https://assets.wfcdn.com/im/30552685/resize-h445%5Ecompr-r85/9731/97313156/Gabaldon+Floral+Roll.jpg);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tea {
+  text-align: center;
+  font-family: 'Zeyada', cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navbar-brand {
+  color: rgb(90, 61, 23);
+  text-shadow: 3px 2px 6px hsl(355, 67%, 68%);
+}
+
+.borderimg {
+  border-radius: 20px;
+}
+
+.cupig {
+  text-align: center;
+  font-family: 'Zeyada', cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.dress {
+  border-radius: 20px;
+}
+
+.imagescontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.dressImage {
+  height: 340px;
+  width: 240px;
+  border-style: solid;
+  border-color: rgb(211, 188, 178);
+  border-width: 10px;
+}
+
+/* @media screen and (max-width: 600px) {
+  .image {
+    height: 400px;
+    width: 325px;
+    margin: 20px; }
+} */
+
+.vdress {
+  background-image: url(https://i.pinimg.com/474x/57/16/eb/5716ebaff4c5047c0f36cc552b71c891.jpg);
+  font-family: 'Satisfy', cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(59, 53, 40);
+}
+
+.vsuit {
+  background-image: url(https://i.pinimg.com/474x/57/16/eb/5716ebaff4c5047c0f36cc552b71c891.jpg);
+  font-family: 'Satisfy', cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(59, 53, 40);
+}
+
+.suitcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.suitimage {
+  height: 340px;
+  width: 240px;
+  border-style: solid;
+  border-color: rgb(211, 188, 178);
+  border-width: 10px;
+}
+
+.welco13 {
+  text-align: center;
+  font-family: 'Zeyada', cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.jojo13 {
+  font-family: 'Satisfy', cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.hov13 {
+  background-color: rgb(26, 23, 17);
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(155, 90, 99);
+}
+
+button {
+  background-color: rgb(235, 194, 194);
+  border: 60px;
+  margin: 10px;
+  border-radius: 10px;
+  transform: matrix(5em);
+  transition: all;
+  text-shadow: 10px;
+}
+
+button:hover {
+  background-color: rgb(248, 236, 236);
+}
+
+.ble12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Define the keyframes for the rotation */
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Apply the animation to the image */
+.image-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.image-container:hover img {
+  animation: rotate360 1s linear infinite; /* Apply the animation on hover */
+}
+
+@media screen and (max-width: 640px) {
+  .navbar-brand {
+    font-size: 24px;
+  }
+  a {
+    font-size: 30px;
+  }
+
+  .tea {
+    font-size: 30px;
+  }
+
+  .cupig {
+    font-size: 30px;
+  }
+
+  .vdress {
+    font-size: 30px;
+  }
+
+  .welco13 {
+    font-size: 30px;
+  }
+
+  .jojo13 {
+    font-size: 30px;
+  }
+
+  ol {
+    list-style: none;
+  }
+
+  .ble12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
